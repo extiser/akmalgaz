@@ -1,0 +1,24 @@
+.top-menu {
+	width: 100%;
+	height: 64px;
+
+	background: url(%=staticPrefixForCss=%general/top-menu.png);
+	&__wrapper {
+		display: flex;
+
+		@extend .wrapper;
+		justify-content: space-between;
+	}
+	&__item {
+		text-decoration: none;
+		text-transform: uppercase;
+
+		color: #fff;
+
+		font-size: em(16px);
+		line-height: 64px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

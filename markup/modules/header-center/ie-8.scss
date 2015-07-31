@@ -1,0 +1,13 @@
+.ie-8 {
+	.header-center {
+		&__wrapper {
+			@include cf;
+		}
+	}
+	.logo {
+		float: left;
+	}
+	.phones {
+		float: right;
+	}
+}

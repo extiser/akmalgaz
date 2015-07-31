@@ -1,0 +1,42 @@
+.header-center {
+	position: relative;
+
+	width: 100%;
+	min-height: 837px;
+
+	background: url(%=staticPrefixForCss=%general/header-bg.jpg) no-repeat center center;
+	background-size: cover;
+	&__wrapper {
+		padding-top: 27px;
+
+		@extend .wrapper;
+		@include cf;
+	}
+}
+
+.logo {
+	display: block;
+	float: left;
+
+	@include bg($logo);
+}
+
+.phones {
+	float: right;
+
+	text-align: right;
+	text-transform: uppercase;
+	&__title {
+		color: $yellow;
+
+		font-size: em(16px);
+		font-weight: 700;
+	}
+	&__item {
+		color: #fff;
+
+		font-size: em(18px);
+		font-weight: 400;
+		line-height: em(16px, 18px);
+	}
+}

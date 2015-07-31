@@ -1,0 +1,71 @@
+.advantages {
+	padding-top: 25px;
+
+	border-bottom: 1px solid #deded4;
+	background: #f4f4e8;
+	&__wrapper {
+		@extend .wrapper;
+	}
+}
+
+.advantages-item {
+	display: inline-block;
+
+	width: 220px;
+	margin-right: 36px;
+
+	vertical-align: top;
+	&:last-child {
+		margin-right: 0;
+	}
+	&:before {
+		display: block;
+
+		margin: 0 auto 23px;
+
+		content: "";
+	}
+	&--magistral {
+		&:before {
+			height: 117px;
+
+			@include bg($magistral);
+		}
+	}
+	&--cost {
+		&:before {
+			@include bg($cost);
+		}
+	}
+	&--exploitation {
+		&:before {
+			@include bg($exploitation);
+		}
+	}
+	&--eco {
+		&:before {
+			@include bg($cost);
+		}
+	}
+	&__title {
+		padding-bottom: 8px;
+
+		text-align: center;
+		text-transform: uppercase;
+
+		color: $black;
+		border-bottom: 1px solid #bfbec1;
+
+		font-size: em(18px);
+		line-height: em(18px, 18px);
+	}
+	&__text {
+		color: $black;
+
+		font-size: em(12px);
+		font-weight: 300;
+		line-height: em(12px, 12px);
+
+		@include blocks-justify;
+	}
+}

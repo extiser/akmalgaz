@@ -1,0 +1,62 @@
+.steps {
+	padding-top: 25px;
+	padding-bottom: 33px;
+
+	border-bottom: 1px solid #deded4;
+	background: #fefef7;
+	&__wrapper {
+		@extend .wrapper;
+	}
+}
+
+.steps-item {
+	margin-right: 0;
+	margin-right: 15px;
+
+	text-align: center;
+	vertical-align: bottom;
+	text-transform: uppercase;
+
+	color: $black;
+
+	font-size: em(16px);
+	line-height: em(16px, 16px);
+
+	@extend .advantages-item;
+	&--call {
+		width: 143px;
+		&:before {
+			@include bg($call);
+		}
+	}
+	&--consult {
+		width: 205px;
+		&:before {
+			@include bg($consult);
+		}
+	}
+	&--engineer {
+		width: 130px;
+		&:before {
+			@include bg($engineer);
+		}
+	}
+	&--agreement {
+		width: 100px;
+		&:before {
+			@include bg($agreement);
+		}
+	}
+	&--mounting {
+		width: 190px;
+		&:before {
+			@include bg($mounting);
+		}
+	}
+	&--warm-house {
+		width: 120px;
+		&:before {
+			@include bg($warm-house);
+		}
+	}
+}

@@ -1,0 +1,84 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.form {
+	width: 100%;
+
+	@include cf;
+	&__row {
+		display: inline-block;
+		&--shadow {
+			position: relative;
+			&:before {
+				z-index: 0;
+				right: 10px;
+
+				width: 315px;
+				height: 55px;
+
+				background: url(%=staticPrefixForCss=%general/input-shadow.png) no-repeat;
+
+				@include content;
+			}
+		}
+		&--shadow-submit {
+			float: right;
+			&:before {
+				right: 0;
+
+				width: 244px;
+				height: 57px;
+
+				background: url(%=staticPrefixForCss=%general/btn-shadow.png) no-repeat;
+			}
+		}
+	}
+	&__element {
+		position: relative;
+		z-index: 1;
+
+		width: 275px;
+		height: 43px;
+		margin-top: 12px;
+		margin-right: 37px;
+		padding-left: 13px;
+
+		border: 1px solid $green;
+		border-radius: 3px;
+		&:focus {
+			outline-color: $green;
+		}
+	}
+	&__submit {
+		position: relative;
+		z-index: 1;
+
+		width: 226px;
+		height: 49px;
+		margin-top: 6px;
+
+		text-transform: uppercase;
+
+		color: #fff;
+		border: 0;
+		border-radius: 8px;
+		background: url(%=staticPrefixForCss=%general/btn-bg.png) repeat-x;
+
+		font-size: em(20px);
+		line-height: 49px;
+	}
+}
+
+.title {
+	width: 100%;
+	margin-bottom: 50px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: $yellow;
+
+	font-size: em(30px);
+	font-weight: 700;
+	line-height: em(30px, 30px);
+}

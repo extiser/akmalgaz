@@ -1,0 +1,14 @@
+.ie8 {
+	.top-menu {
+		&__item {
+			display: inline-block;
+
+			margin-right: 54px;
+
+			vertical-align: middle;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

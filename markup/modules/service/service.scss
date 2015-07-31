@@ -1,0 +1,49 @@
+.service {
+	padding-top: 25px;
+	padding-bottom: 30px;
+
+	border-bottom: 1px solid #deded4;
+	background: #f6f7ea;
+	&__wrapper {
+		@extend .wrapper;
+	}
+}
+
+.service-item {
+	width: 255px;
+	margin-right: 0;
+
+	@extend .advantages-item;
+	&:before {
+		height: 130px;
+	}
+	&__title {
+		padding-top: 8px;
+		padding-bottom: 0;
+
+		border-top: 1px solid #bfbec1;
+		border-bottom: 0;
+
+		@extend .advantages-item__title;
+	}
+	&--emergency {
+		width: 165px;
+		margin-left: 82px;
+		&:before {
+			@include bg($emergency);
+		}
+	}
+	&--delivery {
+		width: 165px;
+		margin-left: 170px;
+		&:before {
+			@include bg($delivery);
+		}
+	}
+	&--warranty {
+		margin-left: 140px;
+		&:before {
+			@include bg($warranty);
+		}
+	}
+}
