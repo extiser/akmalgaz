@@ -309,22 +309,12 @@ blockquote {
   margin: 0; }
 
 /* Your custom fonts here */
-/* Example
-
 @font-face {
-    font-family: 'CustomFont';
-    src: url('../fonts/Custom-Font.eot');
-    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Custom-Font.woff') format('woff'),
-         url('../fonts/Custom-Font.svg#custom_font') format('svg');
-    font-weight: 400;       // For normal width. It could has another value   
-    font-style: normal;     // Also could has another value
-    }
+  font-family: 'Calibri';
+  src: url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'), url('../fonts/Calibri.woff') format('woff'), url('../fonts/Calibri.ttf') format('truetype'), url('../fonts/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal; }
 
-
-// Var for using custom font
-$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
-*/
 .form {
   width: 100%; }
   .form:before, .form:after {
@@ -392,7 +382,8 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 
 html, body {
   height: 100%;
-  font-family: 'Calibri', Arial, Helvetica, sans-serif; }
+  font-family: 'Calibri', Arial, Helvetica, sans-serif;
+  font-size: 16px; }
 
 .wrapper, .advantages__wrapper, .header-center__wrapper, .header-form__wrapper, .reviews__wrapper, .service__wrapper, .steps__wrapper, .top-menu__wrapper, .variant__wrapper {
   width: 1000px;
