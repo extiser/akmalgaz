@@ -4,12 +4,128 @@
 		"selected_items":
 		[
 			[
-				"ak",
-				"akado-room-swithes-group--dipinside"
+				"in",
+				"inline"
 			],
 			[
-				"in",
-				"inline-block"
+				"ta",
+				"table-row"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marign",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"revi",
+				"reviews-item"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"steps",
+				"steps-item"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"s",
+				"steps-item"
+			],
+			[
+				"servi",
+				"service-item"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"va",
+				"variant-item__img"
+			],
+			[
+				"var",
+				"variant-item"
+			],
+			[
+				"v",
+				"variant-item__text"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"adv",
+				"advantages-item"
+			],
+			[
+				"ad",
+				"advantages-item"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"form",
+				"form__row"
+			],
+			[
+				"he",
+				"header-form"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"hea",
+				"header-bg"
+			],
+			[
+				"heda",
+				"header"
+			],
+			[
+				"ak",
+				"akado-room-swithes-group--dipinside"
 			],
 			[
 				"aka",
@@ -48,26 +164,6 @@
 				"countClick"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"min",
-				"min-width"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
 				"bor",
 				"border"
 			],
@@ -76,24 +172,12 @@
 				"border-bottom"
 			],
 			[
-				"marign",
-				"margin"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
 				"mar",
 				"margin-bottom"
 			],
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"con",
@@ -130,10 +214,6 @@
 			[
 				"le",
 				"left"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"padd",
@@ -228,10 +308,6 @@
 				"bottom"
 			],
 			[
-				"he",
-				"header"
-			],
-			[
 				"reg",
 				"registration"
 			],
@@ -242,10 +318,6 @@
 			[
 				"vk",
 				"vk-comments__user"
-			],
-			[
-				"v",
-				"vk-comments"
 			],
 			[
 				"vo",
@@ -268,20 +340,8 @@
 				"authors"
 			],
 			[
-				"li",
-				"list-style-position"
-			],
-			[
-				"for",
-				"form__submit"
-			],
-			[
 				"fo",
 				"form"
-			],
-			[
-				"form",
-				"form__element"
 			],
 			[
 				"lis",
@@ -290,10 +350,6 @@
 			[
 				"gen",
 				"genresListSidebar"
-			],
-			[
-				"s",
-				"support-devices"
 			],
 			[
 				"bre",
@@ -350,10 +406,6 @@
 			[
 				"css",
 				"css	.css() - single"
-			],
-			[
-				"ad",
-				"address-list-item"
 			],
 			[
 				"backgr",
@@ -462,58 +514,6 @@
 			[
 				"se",
 				"service-car"
-			],
-			[
-				"ser",
-				"service"
-			],
-			[
-				"fn",
-				"font-size"
-			],
-			[
-				"text-",
-				"text-align"
-			],
-			[
-				"оп",
-				"оператор"
-			],
-			[
-				"service-car__guests__",
-				"service-car__guests__list__item"
-			],
-			[
-				"border-bott",
-				"border-bottom-color"
-			],
-			[
-				"sev",
-				"service-wedding-cake"
-			],
-			[
-				"border-bot",
-				"border-bottom-color"
-			],
-			[
-				"sc",
-				"scrollTop	.scrollTop()"
-			],
-			[
-				"hi",
-				"hidden-xs"
-			],
-			[
-				"col",
-				"col-lg-offset-1"
-			],
-			[
-				"doc",
-				"docHeight"
-			],
-			[
-				"sl",
-				"slide-line"
 			]
 		]
 	},
@@ -591,10 +591,51 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/akmalgaz/markup"
+		"/Users/extiser/git/akmalgaz/markup",
+		"/Users/extiser/git/akmalgaz/markup/modules",
+		"/Users/extiser/git/akmalgaz/markup/modules/head",
+		"/Users/extiser/git/akmalgaz/markup/modules/top-menu",
+		"/Users/extiser/git/akmalgaz/markup/static",
+		"/Users/extiser/git/akmalgaz/markup/static/js",
+		"/Users/extiser/git/akmalgaz/markup/static/js/framework",
+		"/Users/extiser/git/akmalgaz/markup/static/js/libraries",
+		"/Users/extiser/git/akmalgaz/markup/static/js/plugins",
+		"/Users/extiser/git/akmalgaz/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/akmalgaz/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/head/head.jade",
+		"/Users/extiser/git/akmalgaz/markup/static/scss/common.scss",
+		"/Users/extiser/git/akmalgaz/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/header-center/header-center.scss",
+		"/Users/extiser/git/akmalgaz/markup/pages/index.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/akmalgaz/markup/static/js/framework/scroll.js",
+		"/Users/extiser/git/akmalgaz/markup/modules/variant/variant.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/steps/steps.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/service/service.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/reviews/reviews.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/map/map.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/advantages/advantages.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/header/header.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/variant/variant.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/top-menu/ie-8.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/map/map.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/include/include.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/reviews/reviews.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/steps/steps.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/service/service.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/advantages/advantages.scss",
+		"/Users/extiser/git/akmalgaz/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/header-form/header-form.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/header-form/header-form.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/header-center/header-center.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/header/header.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/header-center/ie-8.scss",
+		"/Users/extiser/git/akmalgaz/markup/static/scss/vars.scss",
+		"/Users/extiser/git/akmalgaz/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/akado-scheme/markup/pages/index.jade",
 		"/Users/extiser/git/akado-scheme/markup/static/scss/common.scss",
 		"/Users/extiser/git/akado-scheme/markup/static/js/framework/akado-room.js",
@@ -690,39 +731,7 @@
 		"/Users/extiser/git/gsb/.gitignore",
 		"/Users/extiser/git/honey-bunny-html/Gemfile",
 		"/Users/extiser/git/honey-bunny-html/config.rb",
-		"/Users/extiser/git/ruslib/markup/static/scss/common.scss",
-		"/Users/extiser/git/ruslib/markup/pages/registration.jade",
-		"/Users/extiser/git/ruslib/markup/modules/registration/registration.jade",
-		"/Users/extiser/git/ruslib/markup/modules/registration/registration.scss",
-		"/Users/extiser/git/ruslib/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.scss",
-		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.jade",
-		"/Users/extiser/git/ruslib/markup/modules/similarBooks/similarBooks.scss",
-		"/Users/extiser/git/ruslib/markup/modules/singleBook/singleBook.jade",
-		"/Users/extiser/git/ruslib/markup/pages/single-read.jade",
-		"/Users/extiser/git/ruslib/markup/pages/single-listen.jade",
-		"/Users/extiser/git/ruslib/markup/modules/singleBook/singleBook.scss",
-		"/Users/extiser/git/ruslib/markup/modules/similarBooks/similarBooks.jade",
-		"/E/Git/ruslib/markup/static/scss/GUI.scss",
-		"/E/Git/ruslib/builds/index.html",
-		"/E/Git/ruslib/markup/modules/_bookBlockHorizontal/_bookBlockHorizontal.scss",
-		"/E/Git/ruslib/markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
-		"/E/Git/ruslib/markup/modules/authors/authors.jade",
-		"/E/Git/ruslib/markup/modules/authors/authors.scss",
-		"/E/Git/ruslib/markup/modules/genresList/genresList.scss",
-		"/E/Git/ruslib/markup/modules/genresList/genresListMain.jade",
-		"/E/Git/ruslib/markup/pages/authors.jade",
-		"/E/Git/eagleeye/layout/static/css/style.css",
-		"/E/Git/eagleeye/layout/index.jade",
-		"/E/Git/eagleeye/layout/static/css/carousel.css",
-		"/E/Git/svadbavo-2015/dev/sass/base/_config.scss",
-		"/E/Git/akado/markup/modules/head/head.jade",
-		"/C/Users/Руслан/Desktop/style.css",
-		"/C/Dropbox/Sites/sovets_woman/sass/screen.scss",
-		"/E/Git/wspeaks/markup/static/scss/GUI.scss",
-		"/E/Git/wspeaks/markup/static/scss/common.scss",
-		"/C/Dropbox/Sites/sovets_woman/sass/config.scss",
-		"/E/Git/ruslib/markup/static/scss/common.scss"
+		"/Users/extiser/git/ruslib/markup/static/scss/common.scss"
 	],
 	"find":
 	{
@@ -741,6 +750,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".Steps-Item",
 			"toggleClass",
 			".active",
 			"data-item",
@@ -867,8 +877,7 @@
 			"Велоаксессуары",
 			"Велосипеды",
 			"Велоаксессуары",
-			"menu",
-			"bcn"
+			"menu"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -876,6 +885,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".steps-item",
 			"addClass",
 			"",
 			"data-option",
@@ -1002,8 +1012,7 @@
 			"images",
 			"font",
 			"",
-			"/images/",
-			"/font/"
+			"/images/"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1062,7 +1071,7 @@
 	"project": "akmalgaz.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
