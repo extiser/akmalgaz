@@ -382,7 +382,7 @@ blockquote {
 
 html, body {
   height: 100%;
-  font-family: 'Calibri', Arial, Helvetica, sans-serif;
+  font-family: 'Calibri';
   font-size: 16px; }
 
 .wrapper, .advantages__wrapper, .footer__wrapper, .header-center__wrapper, .header-form__wrapper, .reviews__wrapper, .service__wrapper, .steps__wrapper, .top-menu__wrapper, .variant__wrapper {
@@ -400,7 +400,7 @@ html, body {
   margin-right: 36px;
   vertical-align: top; }
   .advantages-item:last-child, .service-item:last-child, .steps-item:last-child {
-    margin-right: 0; }
+    margin-right: -100px; }
   .advantages-item:before, .service-item:before, .steps-item:before {
     display: block;
     margin: 0 auto 23px;
@@ -534,7 +534,7 @@ html, body {
   margin-bottom: 50px;
   vertical-align: top; }
   .reviews-item:nth-child(even) {
-    margin-right: 30px; }
+    margin-right: 25px; }
   .reviews-item__content {
     display: inline-block;
     width: 310px;
