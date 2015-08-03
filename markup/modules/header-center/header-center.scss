@@ -4,8 +4,9 @@
 	width: 100%;
 	min-height: 837px;
 	margin-top: 64px;
+	//background: url(%=staticPrefixForCss=%general/header-bg.jpg) no-repeat center center;
 
-	background: url(%=staticPrefixForCss=%general/header-bg.jpg) no-repeat center center;
+	background: url(%=staticPrefixForCss=%general/header-bg-2.jpg) no-repeat center center;
 	background-size: auto 100%;
 	&__wrapper {
 		padding-top: 27px;

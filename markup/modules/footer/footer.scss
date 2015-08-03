@@ -1,0 +1,16 @@
+.footer {
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+	background: #fefdf6;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__text {
+		margin: 0;
+
+		color: $black;
+
+		font-size: em(13px);
+	}
+}

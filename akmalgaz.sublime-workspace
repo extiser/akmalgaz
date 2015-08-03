@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"va",
+				"variant-1"
+			],
+			[
+				"var",
+				"variant"
+			],
+			[
 				"in",
 				"inline"
 			],
@@ -44,10 +60,6 @@
 				"steps-item"
 			],
 			[
-				"pad",
-				"padding-bottom"
-			],
-			[
 				"s",
 				"steps-item"
 			],
@@ -60,20 +72,8 @@
 				"border-color"
 			],
 			[
-				"ma",
-				"margin-left"
-			],
-			[
 				"margi",
 				"margin-right"
-			],
-			[
-				"va",
-				"variant-item__img"
-			],
-			[
-				"var",
-				"variant-item"
 			],
 			[
 				"v",
@@ -593,8 +593,7 @@
 	[
 		"/Users/extiser/git/akmalgaz/markup",
 		"/Users/extiser/git/akmalgaz/markup/modules",
-		"/Users/extiser/git/akmalgaz/markup/modules/head",
-		"/Users/extiser/git/akmalgaz/markup/modules/top-menu",
+		"/Users/extiser/git/akmalgaz/markup/modules/map",
 		"/Users/extiser/git/akmalgaz/markup/static",
 		"/Users/extiser/git/akmalgaz/markup/static/js",
 		"/Users/extiser/git/akmalgaz/markup/static/js/framework",
@@ -604,25 +603,26 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/akmalgaz/markup/modules/map/map.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/map/map.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/header-center/header-center.scss",
+		"/Users/extiser/git/akmalgaz/markup/modules/variant/variant.jade",
+		"/Users/extiser/git/akmalgaz/markup/modules/variant/variant.scss",
 		"/Users/extiser/git/akmalgaz/markup/modules/top-menu/top-menu.scss",
 		"/Users/extiser/git/akmalgaz/markup/modules/head/head.jade",
 		"/Users/extiser/git/akmalgaz/markup/static/scss/common.scss",
 		"/Users/extiser/git/akmalgaz/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/akmalgaz/markup/modules/header-center/header-center.scss",
 		"/Users/extiser/git/akmalgaz/markup/pages/index.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/akmalgaz/markup/static/js/framework/scroll.js",
-		"/Users/extiser/git/akmalgaz/markup/modules/variant/variant.jade",
-		"/Users/extiser/git/akmalgaz/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/steps/steps.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/service/service.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/reviews/reviews.jade",
-		"/Users/extiser/git/akmalgaz/markup/modules/map/map.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/advantages/advantages.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/header/header.scss",
-		"/Users/extiser/git/akmalgaz/markup/modules/variant/variant.scss",
 		"/Users/extiser/git/akmalgaz/markup/modules/top-menu/ie-8.scss",
-		"/Users/extiser/git/akmalgaz/markup/modules/map/map.scss",
 		"/Users/extiser/git/akmalgaz/markup/modules/include/include.jade",
 		"/Users/extiser/git/akmalgaz/markup/modules/reviews/reviews.scss",
 		"/Users/extiser/git/akmalgaz/markup/modules/steps/steps.scss",
@@ -730,8 +730,7 @@
 		"/Users/extiser/git/gsb/.jscsrc",
 		"/Users/extiser/git/gsb/.gitignore",
 		"/Users/extiser/git/honey-bunny-html/Gemfile",
-		"/Users/extiser/git/honey-bunny-html/config.rb",
-		"/Users/extiser/git/ruslib/markup/static/scss/common.scss"
+		"/Users/extiser/git/honey-bunny-html/config.rb"
 	],
 	"find":
 	{
