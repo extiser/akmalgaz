@@ -712,6 +712,9 @@ html, body {
     .variant-item__text span {
       color: #e3ad4b;
       font-size: 1.5em; }
+  .variant-item__img {
+    display: block;
+    margin: auto; }
   .variant-item__btn {
     display: block;
     width: 152px;
