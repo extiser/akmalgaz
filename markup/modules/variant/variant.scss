@@ -12,12 +12,11 @@
 .variant-item {
 	display: inline-block;
 
-	width: 364px;
+	width: 430px;
 	margin-right: 46px;
 	margin-left: 40px;
-	padding: 24px 33px;
-
-	background: #fff;
+	//padding: 24px 33px;
+	//background: #fff;
 	&:last-child {
 		margin: 0;
 	}
@@ -35,7 +34,7 @@
 		}
 	}
 	&__img {
-		margin-top: 24px;
+		//margin-top: 24px;
 	}
 	&__btn {
 		display: block;
