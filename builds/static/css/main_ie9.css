@@ -385,7 +385,7 @@ html, body {
   font-family: 'Calibri';
   font-size: 16px; }
 
-.wrapper, .footer__wrapper, .header-form__wrapper, .header-center__wrapper, .advantages__wrapper, .service__wrapper, .reviews__wrapper, .top-menu__wrapper, .variant__wrapper, .steps__wrapper {
+.wrapper, .footer__wrapper, .header-center__wrapper, .advantages__wrapper, .header-form__wrapper, .service__wrapper, .reviews__wrapper, .steps__wrapper, .top-menu__wrapper, .variant__wrapper {
   width: 1000px;
   margin: auto; }
 
@@ -397,12 +397,6 @@ html, body {
     margin: 0;
     color: #171b1a;
     font-size: 0.8125em; }
-
-.header-form {
-  position: absolute;
-  bottom: 28px;
-  left: 0;
-  width: 100%; }
 
 .header-center {
   position: relative;
@@ -518,6 +512,12 @@ html, body {
     text-align: justify;
     text-justify: newspaper; }
 
+.header-form {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  width: 100%; }
+
 .service {
   padding-top: 25px;
   padding-bottom: 30px;
@@ -596,69 +596,10 @@ html, body {
     text-align: justify;
     text-justify: newspaper; }
 
-.top-menu {
-  position: fixed;
-  z-index: 999;
-  top: 0;
+.map {
+  overflow: hidden;
   width: 100%;
-  height: 64px;
-  background: url(../images/general/top-menu.png); }
-  .top-menu__item {
-    display: inline-block;
-    margin-right: 51px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 1em;
-    line-height: 64px; }
-    .top-menu__item:last-child {
-      margin-right: 0; }
-    .top-menu__item:hover {
-      text-decoration: underline; }
-
-.variant {
-  padding-top: 25px;
-  padding-bottom: 43px;
-  border-bottom: 1px solid #deded4;
-  background: #fefef7; }
-
-.variant-item {
-  display: inline-block;
-  width: 430px;
-  margin-right: 46px;
-  margin-left: 40px; }
-  .variant-item:last-child {
-    margin: 0; }
-  .variant-item__text {
-    margin: 0;
-    color: #616264;
-    font-size: 1.125em;
-    line-height: 1.55556em; }
-    .variant-item__text span {
-      color: #e3ad4b;
-      font-size: 1.5em; }
-  .variant-item__img {
-    display: block;
-    margin: auto; }
-  .variant-item__btn {
-    display: block;
-    width: 152px;
-    height: 38px;
-    margin: 36px auto 0;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #171b1a;
-    border: 2px solid #e3ad4b;
-    border-radius: 3px;
-    background: transparent;
-    font-size: 1em;
-    line-height: 40px; }
-    .variant-item__btn:hover {
-      color: #fff;
-      border-color: transparent;
-      border-radius: 0;
-      background: #50c063; }
+  border-bottom: 1px solid #deded4; }
 
 .steps {
   padding-top: 25px;
@@ -730,7 +671,66 @@ html, body {
       background-size: 559px, 428px;
       background-repeat: no-repeat; }
 
-.map {
-  overflow: hidden;
+.top-menu {
+  position: fixed;
+  z-index: 999;
+  top: 0;
   width: 100%;
-  border-bottom: 1px solid #deded4; }
+  height: 64px;
+  background: url(../images/general/top-menu.png); }
+  .top-menu__item {
+    display: inline-block;
+    margin-right: 51px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+    line-height: 64px; }
+    .top-menu__item:last-child {
+      margin-right: 0; }
+    .top-menu__item:hover {
+      text-decoration: underline; }
+
+.variant {
+  padding-top: 25px;
+  padding-bottom: 43px;
+  border-bottom: 1px solid #deded4;
+  background: #fefef7; }
+
+.variant-item {
+  display: inline-block;
+  width: 430px;
+  margin-right: 46px;
+  margin-left: 40px; }
+  .variant-item:last-child {
+    margin: 0; }
+  .variant-item__text {
+    margin: 0;
+    color: #616264;
+    font-size: 1.125em;
+    line-height: 1.55556em; }
+    .variant-item__text span {
+      color: #e3ad4b;
+      font-size: 1.5em; }
+  .variant-item__img {
+    display: block;
+    margin: auto; }
+  .variant-item__btn {
+    display: block;
+    width: 152px;
+    height: 38px;
+    margin: 36px auto 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #171b1a;
+    border: 2px solid #e3ad4b;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 1em;
+    line-height: 40px; }
+    .variant-item__btn:hover {
+      color: #fff;
+      border-color: transparent;
+      border-radius: 0;
+      background: #50c063; }
